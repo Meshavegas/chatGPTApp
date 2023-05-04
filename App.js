@@ -4,7 +4,7 @@ import ChatScreen from "./src/ChatScreen";
 
 export default function App() {
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <ChatScreen />
     </View>
   );
